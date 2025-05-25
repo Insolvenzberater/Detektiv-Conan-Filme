@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detektiv Conan Film-Reihenfolge</title>
+  <style>
+    @keyframes shimmer {
+      0% { background-position: -200%; }
+      100% { background-position: 200%; }
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: auto;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      background-color: #111;
+      margin: auto;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 25px rgba(255, 255, 255, 0.1);
+      width: 95vw;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin: 0 0 1rem 0;
+      font-size: 2rem;
+      background: linear-gradient(90deg, #ff416c, #ff4b2b, #ff416c);
+      background-size: 200% auto;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: shimmer 6s linear infinite;
+      text-align: center;
+      user-select: none;
+    }
+
+    .grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      padding: 0 0.5rem 1rem;
+      overflow-y: auto;
+    }
+
+    .grid > a.film-box:nth-child(-n+4) {
+      margin-top: 1rem;
+    }
+
+    a.film-box {
+      position: relative;
+      padding: 1rem;
+      border-radius: 10px;
+      background-color: #1c1c1c;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      box-shadow: 0 0 10px rgba(93, 173, 226, 0.3);
+      user-select: none;
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+    }
+
+    a.film-box:hover {
+      transform: scale(1.03);
+      background-color: #262626;
+      box-shadow: 0 0 20px rgba(93, 173, 226, 0.6);
+    }
+
+    .film-number {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      font-size: 0.85rem;
+      color: #999;
+      font-weight: bold;
+      user-select: none;
+    }
+
+    .film {
+      font-weight: bold;
+      font-size: 1rem;
+      background: linear-gradient(90deg, #5ddae0, #32a6c6);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 0.3rem;
+      user-select: none;
+      text-align: center;
+    }
+
+    .episode {
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 0.95rem;
+      user-select: none;
+      text-align: center;
+    }
+
+    .year {
+      font-size: 0.8rem;
+      color: #ccc;
+      margin-top: 0.15rem;
+      user-select: none;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Detektiv Conan Film-Reihenfolge</h1>
+    <div class="grid">
+      <!-- Nummerierte Filme -->
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQP/"><div class="film-number">1</div><div class="film">Der tickende Wolkenkratzer</div><div class="episode">nach Episode 56</div><div class="year">1997</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQR/"><div class="film-number">2</div><div class="film">Das 14. Ziel</div><div class="episode">nach Episode 103</div><div class="year">1998</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQT/"><div class="film-number">3</div><div class="film">Der Magier des letzten Jahrhunderts</div><div class="episode">nach Episode 150</div><div class="year">1999</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQU/"><div class="film-number">4</div><div class="film">Der Killer in ihren Augen</div><div class="episode">nach Episode 201</div><div class="year">2000</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQV/"><div class="film-number">5</div><div class="film">Countdown zum Himmel</div><div class="episode">nach Episode 249</div><div class="year">2001</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQW/"><div class="film-number">6</div><div class="film">Das Phantom der Baker Street</div><div class="episode">nach Episode 296</div><div class="year">2002</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQX/"><div class="film-number">7</div><div class="film">Die Kreuzung des Labyrinths</div><div class="episode">nach Episode 315</div><div class="year">2003</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQY/"><div class="film-number">8</div><div class="film">Der Magier mit den Silberschwingen</div><div class="episode">nach Episode 356</div><div class="year">2004</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZQZ/"><div class="film-number">9</div><div class="film">Das Komplott über dem Ozean</div><div class="episode">nach Episode 393</div><div class="year">2005</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR0/"><div class="film-number">10</div><div class="film">Das Requiem der Detektive</div><div class="episode">nach Episode 434</div><div class="year">2006</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR1/"><div class="film-number">11</div><div class="film">Die azurblaue Piratenflagge</div><div class="episode">nach Episode 469</div><div class="year">2007</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR2/"><div class="film-number">12</div><div class="film">Die Partitur des Grauens</div><div class="episode">nach Episode 501</div><div class="year">2008</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR3/"><div class="film-number">13</div><div class="film">Der Nachtschwarze Jäger</div><div class="episode">nach Episode 530</div><div class="year">2009</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR4/"><div class="film-number">14</div><div class="film">Das verlorene Schiff am Himmel</div><div class="episode">nach Episode 570</div><div class="year">2010</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR5/"><div class="film-number">15</div><div class="film">Die 15 Minuten der Stille</div><div class="episode">nach Episode 611</div><div class="year">2011</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR6/"><div class="film-number">16</div><div class="film">Der elfte Stürmer</div><div class="episode">nach Episode 651</div><div class="year">2012</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR7/"><div class="film-number">17</div><div class="film">Detektiv auf hoher See</div><div class="episode">nach Episode 694</div><div class="year">2013</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR8/"><div class="film-number">18</div><div class="film">Der Scharfschütze aus einer anderen Dimension</div><div class="episode">nach Episode 735</div><div class="year">2014</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZR9/"><div class="film-number">19</div><div class="film">Die Sonnenblumen des Infernos</div><div class="episode">nach Episode 774</div><div class="year">2015</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRA/"><div class="film-number">20</div><div class="film">Der dunkelste Albtraum</div><div class="episode">nach Episode 813</div><div class="year">2016</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRB/"><div class="film-number">21</div><div class="film">Die goldene Kugel</div><div class="episode">nach Episode 850</div><div class="year">2017</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRC/"><div class="film-number">22</div><div class="film">Der schwarze Ritter</div><div class="episode">nach Episode 897</div><div class="year">2018</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRD/"><div class="film-number">23</div><div class="film">Die stahlblaue Faust</div><div class="episode">nach Episode 944</div><div class="year">2019</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRE/"><div class="film-number">24</div><div class="film">Der vermisste Schatz</div><div class="episode">nach Episode 991</div><div class="year">2020</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRF/"><div class="film-number">25</div><div class="film">Das geschmolzene Schwert</div><div class="episode">nach Episode 1038</div><div class="year">2021</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRG/"><div class="film-number">26</div><div class="film">Die gekrönte Rose</div><div class="episode">nach Episode 1085</div><div class="year">2022</div></a>
+      <a class="film-box" href="https://www.crunchyroll.com/de/watch/GD9UV2ZRH/"><div class="film-number">27</div><div class="film">Der endlose Sommer</div><div class="episode">nach Episode 1132</div><div class="year">2023</div></a>
+    </div>
+  </div>
+</body>
+</html>
